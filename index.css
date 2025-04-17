@@ -1,0 +1,206 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+  
+}
+
+nav ul li a {
+  color: rgb(219, 178, 102);
+  text-decoration: none;
+  font-size: large;
+}
+
+section {
+  padding: 20px;
+  margin: 10px 0;
+}
+
+#secao1 {
+  background: #1e1e1e;
+  color: white;
+}
+
+#secao2 {
+  background: #1e1e1e;
+  color: white;
+}
+
+#secao3 {
+  background: #1e1e1e;
+  color: white;
+}
+
+#secao4 {
+  background: #1e1e1e;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background: #333;
+  color: white;
+  position: relative;
+}
+
+.bonfire {
+  display: flex;
+  justify-content: flex-end;
+  width: 60px;
+  height: 60px;
+  margin-left: 93%;
+  border-radius: 60%;
+}
+
+.card-asilo{
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+  border-left: 5px solid #597487;
+  padding: 25px;
+  margin: 30px 50px;
+  font-family: "Georgia", serif;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.card-burg{
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+  border-left: 5px solid #3b9ada;
+  padding: 25px;
+  margin: 30px 50px;
+  font-family: "Georgia", serif;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.card-anor-londo{
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+  border-left: 5px solid #e1e426;
+  padding: 25px;
+  margin: 30px 50px;
+  font-family: "Georgia", serif;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.card-blighttown{
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+  border-left: 5px solid #5fda18;
+  padding: 25px;
+  margin: 30px 50px;
+  font-family: "Georgia", serif;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+.card-ruins{
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+  border-left: 5px solid #4e1a8a;
+  padding: 25px;
+  margin: 30px 50px;
+  font-family: "Georgia", serif;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.9);
+}
+
+.titulo-card {
+  color: #9e9e9e;
+  border-bottom: 1px solid #4b4b4b;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.dec-padrao-card {
+  padding-top: 10px;
+}
+
+.dec-padrao-card p {
+  margin: 5px 0;
+}
+
+.dec-padrao-card blockquote {
+  font-style: italic;
+  color: #b85c38;
+}
+
+body {
+  background-color: #171515;
+}
+
+.asilo {
+  max-width: 30%;
+  height: auto;
+  position: relative;
+  left: 70%;
+}
+
+.accordion-card .accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-out, padding 0.3s;
+  padding: 0 5px;
+}
+
+.accordion-card.open .accordion-content {
+  max-height: 1000px;
+  padding-top: 15px;
+}
+
+.accordion-toggle {
+  cursor: pointer;
+  position: relative;
+}
+
+.accordion-toggle::after {
+  content: '▼';
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 0.8em;
+  transition: transform 0.3s ease;
+}
+
+.accordion-card.open .accordion-toggle::after {
+  transform: rotate(-180deg);
+}
+
+footer a {
+  color: rgb(219, 178, 102);   
+  text-decoration: none;
+}
+
+#secao4  a {
+  color:rgb(219, 178, 102); 
+  text-decoration: none;
+}
