@@ -226,3 +226,17 @@ footer a{
 #Desc[type=text]:focus {
   width: 90%;
 } 
+
+.SubmitButton{
+  background-color: blue;
+  color: white;
+  margin-top: 75px;
+  margin-left: 20px;
+  width: 7%;
+  border-color: blue;
+}
+
+.SubmitButton:hover{
+  transform: translateY(-2px);
+}
+
