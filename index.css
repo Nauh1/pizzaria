@@ -126,7 +126,7 @@ section {
   object-fit: cover;
 }
 
-.card .bacon {
+.card .card-img {
   width: 63%;
   height: 200px;
   object-fit: cover;
@@ -240,3 +240,18 @@ footer a{
   transform: translateY(-2px);
 }
 
+#preco[type=number] {
+  width: 6%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  resize: none;
+}
+
+#preco[type=number] {
+  transition: width 0.4s ease-in-out;
+}
+
+#preco[type=number]:focus {
+  width: 10%;
+} 
